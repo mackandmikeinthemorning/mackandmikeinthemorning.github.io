@@ -28,5 +28,6 @@
     <guid>http://mackandmikeinthemorning.com/ep0.html</guid>
 </item> 
    
+<atom:link href="http://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
 </rss>
