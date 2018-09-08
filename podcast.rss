@@ -13,10 +13,9 @@
     <itunes:email>mchow815@gmail.com</itunes:email>
 </itunes:owner>
 <itunes:explicit>no</itunes:explicit>
-<itunes:image href="http://mackandmikeinthemorning.com/static/podcast-icon.jpg" />
-<itunes:category text="Technology"/></itunes:category>
+<itunes:image href="http://mackandmikeinthemorning.com/static/podcast-icon.jpg"></itunes:image>
+<itunes:category text="Technology"></itunes:category>
 
-<!--REPEAT THIS BLOCK FOR EACH EPISODE-->
 <item>
     <title>Episode 0: The New Experience Initiative (NIN)</title>
     <itunes:summary>Mack and Mike talk about their new experience initiative.</itunes:summary>
@@ -29,7 +28,6 @@
     <itunes:explicit>no</itunes:explicit>
     <guid>http://mackandmikeinthemorning.com/ep0.html</guid>
 </item> 
-<!--END REPEAT--> 
    
 </channel>
 </rss>
