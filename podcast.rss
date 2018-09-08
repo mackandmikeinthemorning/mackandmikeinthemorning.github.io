@@ -9,8 +9,8 @@
 <itunes:summary>Mack and Mike talk about life, tech, and the tech lifestyle.</itunes:summary>
 <description>Mack and Mike talk about life, tech, and the tech lifestyle.</description>
 <itunes:owner>
-    <itunes:name>Mack and Mike</itunes:name>
-    <itunes:email>mackandmikeinthemorning@gmail.com</itunes:email>
+    <itunes:name>Mike Chow</itunes:name>
+    <itunes:email>mchow815@gmail.com</itunes:email>
 </itunes:owner>
 <itunes:explicit>no</itunes:explicit>
 <itunes:image href="http://mackandmikeinthemorning.com/static/podcast-icon.jpg" />
@@ -21,13 +21,13 @@
     <title>Episode 0: The New Experience Initiative (NIN)</title>
     <itunes:summary>Mack and Mike talk about their new experience initiative.</itunes:summary>
     <description>Mack and Mike talk about their new experience initiative.</description>
-    <link>http://mackandmikeinthemorning.com/</link>
+    <link>http://mackandmikeinthemorning.com/ep0.html</link>
     <enclosure url="http://mackandmikeinthemorning.com/audio/podcast.m4a" type="audio/mpeg" length="30661468"></enclosure>
     <pubDate>Fri, 08 Sept 2018 12:00:00 +0000</pubDate>
     <itunes:author>Mack and Mike</itunes:author>
     <itunes:duration>00:16:10</itunes:duration>
     <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/</guid>
+    <guid>http://mackandmikeinthemorning.com/ep0.html</guid>
 </item> 
 <!--END REPEAT--> 
    
