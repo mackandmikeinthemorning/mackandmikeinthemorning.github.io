@@ -40,6 +40,20 @@
     <itunes:explicit>no</itunes:explicit>
     <guid>http://mackandmikeinthemorning.com/ep1.html</guid>
 </item> 
+
+<item>
+    <title>Episode 2: Serious life business</title>
+    <itunes:summary>First, Mack and Mike talk about Mack's life as a popular vlogger and how he tries to maintain control over his life narrative. Then, they delve into how human memories, technology, and the New Experience Initiative (NIN) are altering their lives and decisions. They also get a new theme song and sponsor.</itunes:summary>
+    <description>First, Mack and Mike talk about Mack's life as a popular vlogger and how he tries to maintain control over his life narrative. Then, they delve into how human memories, technology, and the New Experience Initiative (NIN) are altering their lives and decisions. They also get a new theme song and sponsor.</description>
+    <link>http://mackandmikeinthemorning.com/ep2.html</link>
+    <enclosure url="http://mackandmikeinthemorning.com/audio/ep2.m4a" type="audio/mpeg" length="40640038"></enclosure>
+    <pubDate>Fri, 21 Sep 2018 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:21:28</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep2.html</guid>
+</item> 
+  
    
 <atom:link href="http://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
