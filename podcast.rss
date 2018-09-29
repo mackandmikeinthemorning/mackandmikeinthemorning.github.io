@@ -68,6 +68,6 @@
 </item> 
  
    
-<atom:link href="http://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
+<atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
 </rss>
