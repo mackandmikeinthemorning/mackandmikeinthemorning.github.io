@@ -54,6 +54,19 @@
     <guid>http://mackandmikeinthemorning.com/ep2.html</guid>
 </item> 
   
+<item>
+    <title>Episode 3: Remember words a lot</title>
+    <itunes:summary>Mack and Mike talk about how language affects thought patterns, the purpose of grammar, the role of AI in writing and sports.</itunes:summary>
+    <description>Mack and Mike talk about how language affects thought patterns, the purpose of grammar, the role of AI in writing and sports.</description>
+    <link>http://mackandmikeinthemorning.com/ep3.html</link>
+    <enclosure url="http://mackandmikeinthemorning.com/audio/ep3.m4a" type="audio/mpeg" length="39159603"></enclosure>
+    <pubDate>Sat, 29 Sep 2018 00:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:20:39</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep3.html</guid>
+</item> 
+ 
    
 <atom:link href="http://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
