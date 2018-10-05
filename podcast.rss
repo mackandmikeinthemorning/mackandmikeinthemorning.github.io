@@ -66,7 +66,19 @@
     <itunes:explicit>no</itunes:explicit>
     <guid>http://mackandmikeinthemorning.com/ep3.html</guid>
 </item> 
- 
+
+<item>
+    <title>Episode 4: Good habits, bad habits</title>
+    <itunes:summary>Mack and Mike discuss the best season of The Office (US). Mike tells Mack about his morning routine. Finally they wonder if habits are fundamentally at odds with NIN.</itunes:summary>
+    <description>Mack and Mike discuss the best season of The Office (US). Mike tells Mack about his morning routine. Finally they wonder if habits are fundamentally at odds with NIN.</description>
+    <link>http://mackandmikeinthemorning.com/ep4.html</link>
+    <enclosure url="http://mackandmikeinthemorning.com/audio/ep4.m4a" type="audio/mpeg" length="29760336"></enclosure>
+    <pubDate>Fri, 4 Oct 2018 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:16:04</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep4.html</guid>
+</item> 
    
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
