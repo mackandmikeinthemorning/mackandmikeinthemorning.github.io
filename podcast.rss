@@ -79,6 +79,20 @@
     <itunes:explicit>no</itunes:explicit>
     <guid>http://mackandmikeinthemorning.com/ep4.html</guid>
 </item> 
+
+<item>
+    <title>&#x1F4F1 Episode 5: You should do what you want, I don't care</title>
+    <itunes:summary>Mack reviews the new iPhone XS. Mack and Mike rate their latest SF trip. They then delve into how they prioritize tasks in their lives. Finally Mack rants about his new productivity hack.</itunes:summary>
+    <description>Mack reviews the new iPhone XS. Mack and Mike rate their latest SF trip. They then delve into how they prioritize tasks in their lives. Finally Mack rants about his new productivity hack.</description>
+    <link>http://mackandmikeinthemorning.com/ep5.html</link>
+    <enclosure url="http://mackandmikeinthemorning.com/audio/ep5.m4a" type="audio/mpeg" length="51057445"></enclosure>
+    <pubDate>Sun, 21 Oct 2018 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:27:10</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep5.html</guid>
+</item> 
+
    
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
