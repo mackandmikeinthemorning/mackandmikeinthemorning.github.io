@@ -93,6 +93,18 @@
     <guid>http://mackandmikeinthemorning.com/ep5.html</guid>
 </item> 
 
+<item>
+    <title>Episode 6: Harry & Hermoine and Malapropisms</title>
+    <itunes:summary>In the first half of this episode, Mack and Mike are joined by their co-worker, Roxana. They talk about Internet reviews, shipping, and the Harry Potter OTP. Mack and Mike then read malapropisms off of the Internet.</itunes:summary>
+    <description>In the first half of this episode, Mack and Mike are joined by their co-worker, Roxana. They talk about Internet reviews, shipping, and the Harry Potter OTP. Mack and Mike then read malapropisms off of the Internet.</description>
+    <link>http://mackandmikeinthemorning.com/ep6.html</link>
+    <enclosure url="http://mackandmikeinthemorning.com/audio/ep6.m4a" type="audio/mpeg" length="43054773"></enclosure>
+    <pubDate>Wed, 31 Oct 2018 12:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:23:11</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep6.html</guid>
+</item> 
    
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
