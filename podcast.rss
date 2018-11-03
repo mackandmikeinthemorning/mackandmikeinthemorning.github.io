@@ -106,6 +106,20 @@
     <guid>http://mackandmikeinthemorning.com/ep6.html</guid>
 </item> 
    
+<item>
+    <title>Episode 7: Dreams, the Regents exams, and a lotta rambling on politics</title>
+    <itunes:summary>Mack and Mike talk about their dreams and dreaming. They go on a brief tangent about the New York State Regents exams. Then they talk about politics and the upcoming midterm 2018 elections. Finally Mack talks about Beto O'Rourke and unconscious bias.</itunes:summary>
+    <description>Mack and Mike talk about their dreams and dreaming. They go on a brief tangent about the New York State Regents exams. Then they talk about politics and the upcoming midterm 2018 elections. Finally Mack talks about Beto O'Rourke and unconscious bias.</description>
+    <link>http://mackandmikeinthemorning.com/ep7.html</link>
+    <enclosure url="http://mackandmikeinthemorning.com/audio/ep7.m4a" type="audio/mpeg" length="78961693"></enclosure>
+    <pubDate>Sat, 3 Nov 2018 8:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:44:07</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep7.html</guid>
+</item> 
+ 
+
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
 </rss>
