@@ -118,6 +118,19 @@
     <itunes:explicit>no</itunes:explicit>
     <guid>http://mackandmikeinthemorning.com/ep7.html</guid>
 </item> 
+
+<item>
+    <title>Episode 8: RGNs: Really Good Noodles</title>
+    <itunes:summary>Mack and Mike talk about efficient forms of government. Then they talk about what they have been up to during the podcast hiatus. Mike talks about his recent trip to Hong Kong. Finally, they talk about their recent board game obsessions.</itunes:summary>
+    <description>Mack and Mike talk about efficient forms of government. Then they talk about what they have been up to during the podcast hiatus. Mike talks about his recent trip to Hong Kong. Finally, they talk about their recent board game obsessions.</description>
+    <link>http://mackandmikeinthemorning.com/ep8.html</link>
+    <enclosure url="http://mackandmikeinthemorning.com/audio/ep8.m4a" type="audio/mpeg" length="34346776"></enclosure>
+    <pubDate>Mon, 3 Dec 2018 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:35:19</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep8.html</guid>
+</item> 
  
 
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
