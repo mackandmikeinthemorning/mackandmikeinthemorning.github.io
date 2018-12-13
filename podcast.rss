@@ -131,7 +131,19 @@
     <itunes:explicit>no</itunes:explicit>
     <guid>http://mackandmikeinthemorning.com/ep8.html</guid>
 </item> 
- 
+
+<item>
+    <title>Episode 9: Happiness and productivity</title>
+    <itunes:summary>In this episode, Mack loses his voice and forgets his mic. Then they talk about if being productive leads to happiness or vice versa. Then they touch on Universal Basic Income (UBI).</itunes:summary>
+    <description>In this episode, Mack loses his voice and forgets his mic. Then they talk about if being productive leads to happiness or vice versa. Then they touch on Universal Basic Income (UBI).</description>
+    <link>http://mackandmikeinthemorning.com/ep9.html</link>
+    <enclosure url="http://mackandmikeinthemorning.com/audio/ep9.m4a" type="audio/mpeg" length="21242416"></enclosure>
+    <pubDate>Thu, 13 Dec 2018 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:21:49</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep9.html</guid>
+</item> 
 
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
