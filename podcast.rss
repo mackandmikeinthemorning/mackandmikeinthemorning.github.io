@@ -145,6 +145,19 @@
     <guid>http://mackandmikeinthemorning.com/ep9.html</guid>
 </item> 
 
+<item>
+    <title>Episode 10: Losing our Religion</title>
+    <itunes:summary>Mack and Mike talk about their personal journeys with religion with this week's guest, Jim. Also, Mike and Jim discover a shocking coincidence of birth about themselves.</itunes:summary>
+    <description>Mack and Mike talk about their personal journeys with religion with this week's guest, Jim. Also, Mike and Jim discover a shocking coincidence of birth about themselves.</description>
+    <link>http://mackandmikeinthemorning.com/ep10.html</link>
+    <enclosure url="http://mackandmikeinthemorning.com/audio/ep10.m4a" type="audio/mpeg" length="45527642"></enclosure>
+    <pubDate>Sat, 22 Dec 2018 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:46:50</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep10.html</guid>
+</item> 
+
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
 </rss>
