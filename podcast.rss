@@ -158,6 +158,33 @@
     <guid>http://mackandmikeinthemorning.com/ep10.html</guid>
 </item> 
 
+<item>
+    <title>Episode 11: New Year, Better Mack</title>
+    <itunes:summary>Mack and Mike talk about their New Year Resolutions with this week's guest, Mergen. They also reminisce about how they remember years in their lives. Finally, Mack talks about the upcoming season 2 of his popular vlog.</itunes:summary>
+    <description>Mack and Mike talk about their New Year Resolutions with this week's guest, Mergen. They also reminisce about how they remember years in their lives. Finally, Mack talks about the upcoming season 2 of his popular vlog.</description>
+    <link>http://mackandmikeinthemorning.com/ep11.html</link>
+    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep11.m4a" type="audio/mpeg" length="29990233"></enclosure>
+    <pubDate>Mon, 07 Jan 2019 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:30:13</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep11.html</guid>
+</item> 
+
+<item>
+    <title>Episode 12: Tuesdays with Mergen</title>
+    <itunes:summary>In the thrilling conclusion to this two part episode, Mack and Mike discuss with Mergen about how his nomadic Mongolian roots clash with modern Western society.</itunes:summary>
+    <description>In the thrilling conclusion to this two part episode, Mack and Mike discuss with Mergen about how his nomadic Mongolian roots clash with modern Western society.</description>
+    <link>http://mackandmikeinthemorning.com/ep12.html</link>
+    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep12.m4a" type="audio/mpeg" length="19137051"></enclosure>
+    <pubDate>Mon, 07 Jan 2019 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:19:17</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep12.html</guid>
+</item> 
+
+
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
 </rss>
