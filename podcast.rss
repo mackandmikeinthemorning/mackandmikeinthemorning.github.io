@@ -184,6 +184,19 @@
     <guid>http://mackandmikeinthemorning.com/ep12.html</guid>
 </item> 
 
+<item>
+    <title>Episode 13: Grey matter</title>
+    <itunes:summary>In a Friday fireside chat, Mack and Mike talk about what it means to be "productive" all of the time.</itunes:summary>
+    <description>In a Friday fireside chat, Mack and Mike talk about what it means to be "productive" all of the time.</description>
+    <link>http://mackandmikeinthemorning.com/ep13.html</link>
+    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep13.m4a" type="audio/mpeg" length="30229588"></enclosure>
+    <pubDate>Mon, 14 Jan 2019 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:30:28</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep13.html</guid>
+</item> 
+
 
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
