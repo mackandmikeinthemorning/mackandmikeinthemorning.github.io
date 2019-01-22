@@ -197,6 +197,20 @@
     <guid>http://mackandmikeinthemorning.com/ep13.html</guid>
 </item> 
 
+<item>
+    <title>Episode 14: The One where they're really tired</title>
+    <itunes:summary>Mack and Mike talk about Mack's morning routine and how he pumps himself up for the day while getting only 4 hours of sleep.</itunes:summary>
+    <description>Mack and Mike talk about Mack's morning routine and how he pumps himself up for the day while getting only 4 hours of sleep.</description>
+    <link>http://mackandmikeinthemorning.com/ep14.html</link>
+    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep14.m4a" type="audio/mpeg" length="28211721"></enclosure>
+    <pubDate>Mon, 21 Jan 2019 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:28:27</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep14.html</guid>
+</item> 
+
+
 
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
