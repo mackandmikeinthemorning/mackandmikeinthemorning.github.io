@@ -210,6 +210,19 @@
     <guid>http://mackandmikeinthemorning.com/ep14.html</guid>
 </item> 
 
+<item>
+    <title>Episode 15: Self-actuation</title>
+    <itunes:summary>Mack and Mike talk about Mack's self-actualization process and how they determine if something is meaningful.</itunes:summary>
+    <description>Mack and Mike talk about Mack's self-actualization process and how they determine if something is meaningful.</description>
+    <link>http://mackandmikeinthemorning.com/ep15.html</link>
+    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep15.m4a" type="audio/mpeg" length="35945285"></enclosure>
+    <pubDate>Mon, 28 Jan 2019 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:35:49</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep15.html</guid>
+</item> 
+
 
 
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
