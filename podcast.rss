@@ -236,7 +236,18 @@
     <guid>http://mackandmikeinthemorning.com/ep16.html</guid>
 </item> 
 
-
+<item>
+    <title>Episode 17: David's podcast (part 2)</title>
+    <itunes:summary>In part 2, Mack and Mike and David talk about external validation and the profoundness of Christopher Nolan movies. Spoilers await our listeners.</itunes:summary>
+    <description>In part 2, Mack and Mike and David talk about external validation and the profoundness of Christopher Nolan movies. Spoilers await our listeners.</description>
+    <link>http://mackandmikeinthemorning.com/ep17.html</link>
+    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep17.m4a" type="audio/mpeg" length="47005173"></enclosure>
+    <pubDate>Mon, 11 Feb 2019 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:48:06</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep17.html</guid>
+</item> 
 
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
