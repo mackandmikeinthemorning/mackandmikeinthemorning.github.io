@@ -249,6 +249,20 @@
     <guid>http://mackandmikeinthemorning.com/ep17.html</guid>
 </item> 
 
+<item>
+    <title>Episode 18: The hero's journey</title>
+    <itunes:summary>In this behind the scenes, BONUS episode, David and Mack and Mike discuss the hero's journey in modern cinema.</itunes:summary>
+    <description>In this behind the scenes, BONUS episode, David and Mack and Mike discuss the hero's journey in modern cinema.</description>
+    <link>http://mackandmikeinthemorning.com/ep18.html</link>
+    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep18.m4a" type="audio/mpeg" length="24189093"></enclosure>
+    <pubDate>Mon, 18 Feb 2019 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>00:24:29</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep18.html</guid>
+</item> 
+
+
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
 </rss>
