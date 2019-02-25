@@ -262,6 +262,18 @@
     <guid>http://mackandmikeinthemorning.com/ep18.html</guid>
 </item> 
 
+<item>
+    <title>Episode 19: David and Mike in the morning</title>
+    <itunes:summary>David and Mike talk about how they learn, their learning philosophies, and how they think about tackling complex problems.</itunes:summary>
+    <description>David and Mike talk about how they learn, their learning philosophies, and how they think about tackling complex problems.</description>
+    <link>http://mackandmikeinthemorning.com/ep19.html</link>
+    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep19.m4a" type="audio/mpeg" length="84755949"></enclosure>
+    <pubDate>Mon, 25 Feb 2019 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>01:24:21</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep19.html</guid>
+</item> 
 
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
