@@ -9,34 +9,32 @@
 
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Le styles
     <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
+    -->
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
   </head>
 
   <body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="podcast.rss">RSS</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	</button>
+        <div class="collaspe nav-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li><a class="nav-link" href="#">Home</a></li>
+              <li><a class="nav-link" href="#about">About</a></li>
+              <li><a class="nav-link" href="podcast.rss">RSS</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
         </div>
-      </div>
-    </div>
+    </nav>
+
+    <br />
 
     <div class="container" style="overflow-wrap:break-word">
 
@@ -51,7 +49,9 @@
 
       <hr />
 
-	<p>
+	<h2>Latest episode</h2>
+
+	<div class="jumbotron">
 	<h3>&#x1F9D9 Episode 19: David and Mike in the morning</h3>
 	David and Mike talk about how they learn, their learning philosophies, and how they think about tackling complex problems.
 	<br />
@@ -65,63 +65,67 @@
 
 	<br />
 	<small>Published on <a href="ep19.html">Feb 25 2019</a></small>
+	</p>
+	</div>
 
-	<hr />
+	<br />
 
+	<div>
+	<ul class="list-group">
+	<li class="list-group-item">
+	<div class="alert alert-primary"><h2>NEW! Sign up for our email newsletter<h2></div>
+	<form id="mailForm">
+	    <div class="form-group">
+	    <label for="inputEmail">Email address</label>
+	    <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" />
+	    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <div id="toast"></div>
+	    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+	    </div>
+	</form>
+	</li>
+	</ul>
+	</div>
+
+	<br />
+
+	<div>
+	<h2>Previous episodes</h2>
+	</div>
+
+	<ul class="list-group list-group-flush">
+
+	<li class="list-group-item">
 	<p>
-	<h3>&#x1F3AC Episode 18: The hero's journey</h3>
+	<a class="episode-link" href="ep18.html"><h3>&#x1F3AC Episode 18: The hero's journey</h3></a>
 	In this behind the scenes, BONUS episode, David and Mack and Mike discuss the hero's journey in modern cinema.
-	<br />
-	<br />
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep18.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
 	</p>
 
-	<br />
 	<small>Published on <a href="ep18.html">Feb 18 2019</a></small>
+	</li>
 
-	<hr />
 
-
+	<li class="list-group-item">
 	<p>
-	<h3>&#x1F3A5 Episode 17: David's Podcast (part 2)</h3>
+	<a class="episode-link" href="ep17.html"><h3>&#x1F3A5 Episode 17: David's Podcast (part 2)</h3></a>
 	In part 2, Mack and Mike and David talk about external validation and the profoundness of Christopher Nolan movies. Spoilers await our listeners.
-	<br />
-	<br />
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep17.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
 	</p>
 
-	<br />
 	<small>Published on <a href="ep17.html">Feb 11 2019</a></small>
+	</li>
 
-	<hr />
-
+	<li class="list-group-item">
 	<p>
-	<h3>&#x1F399 Episode 16: David's Podcast (part 1)</h3>
+	<a class="episode-link" href="ep16.html"><h3>&#x1F399 Episode 16: David's Podcast (part 1)</h3></a>
 	Mack and Mike are joined by the host of David's podcast. They talk about meditation, being able to sit still, and how David comes up with subjects to talk about on David's podcast
-	<br />
-	<br />
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep16.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
 	</p>
 
-	<br />
 	<small>Published on <a href="ep16.html">Feb 4 2019</a></small>
+	</li>
 
-	<hr />
-
+	<li class="list-group-item">
 	<p>
-	<h3>&#x1F4AD Episode 15: Self-actuation</h3>
+	<a href="ep15.html"><h3>&#x1F4AD Episode 15: Self-actuation</h3></a>
 	Mack and Mike talk about Mack's self-actualization process and how they determine if something is meaningful.
 	<br />
 	<br />
@@ -129,21 +133,14 @@
 	<br />
 	Venmo <a href="https://venmo.com/">https://venmo.com/</a> <br />
 	Mack's vlog <a href="https://www.youtube.com/channel/UCdT07u1Y2aiz_fy4KWXq0mA">https://www.youtube.com/channel/UCdT07u1Y2aiz_fy4KWXq0mA</a> <br />
-	<br />
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep15.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
 	</p>
 
-	<br />
 	<small>Published on <a href="ep15.html">Jan 28 2019</a></small>
+	</li>
 
-	<hr />
-
+	<li class="list-group-item">
 	<p>
-	<h3>&#x1F634 Episode 14: The One where they're really tired</h3>
+	<a href="ep14.html"><h3>&#x1F634 Episode 14: The One where they're really tired</h3></a>
 	Mack and Mike talk about Mack's morning routine and how he pumps himself up for the day while getting only 4 hours of sleep.
 	<br />
 	<br />
@@ -152,21 +149,14 @@
 	Venmo <a href="https://venmo.com/">https://venmo.com/</a> <br />
 	Mack's vlog <a href="https://www.youtube.com/channel/UCdT07u1Y2aiz_fy4KWXq0mA">https://www.youtube.com/channel/UCdT07u1Y2aiz_fy4KWXq0mA</a> <br />
 	Spongebob, we threw out his name <a href="https://www.youtube.com/watch?v=tZQJhvs4amQ">https://www.youtube.com/watch?v=tZQJhvs4amQ</a> <br />
-	<br />
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep14.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
 	</p>
 
-	<br />
 	<small>Published on <a href="ep14.html">Jan 21 2019</a></small>
+	</li>
 
-	<hr />
-
+	<li class="list-group-item">
 	<p>
-	<h3>&#x1F9E0 Episode 13: Grey matter</h3> 
+	<a href="ep13.html"><h3>&#x1F9E0 Episode 13: Grey matter</h3></a>
 	In a Friday fireside chat, Mack and Mike talk about what it means to be "productive" all of the time.
 	<br />
 	<br />
@@ -175,40 +165,25 @@
 	Spritz <a href="https://www.spritz.com/">https://www.spritz.com/</a> <br />
 	Mack's vlog <a href="https://www.youtube.com/channel/UCdT07u1Y2aiz_fy4KWXq0mA">https://www.youtube.com/channel/UCdT07u1Y2aiz_fy4KWXq0mA</a> <br />
 	Patrick Starr's Enigma brain <a href="https://www.youtube.com/watch?v=KNZSXnrbs_k">https://www.youtube.com/watch?v=KNZSXnrbs_k</a> <br />
-	<br />
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep13.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
 	</p>
 
-	<br />
 	<small>Published on <a href="ep13.html">Jan 14 2019</a></small>
+	</li>
 
-	<hr />
-
+	<li class="list-group-item">
 	<p>
-        <h3>&#x1F410 Episode 12: Tuesdays with Mergen</h3>
+        <a href="ep12.html"><h3>&#x1F410 Episode 12: Tuesdays with Mergen</h3></a>
 	In the thrilling conclusion to this two part episode, Mack and Mike discuss with Mergen about how his nomadic Mongolian roots clash with modern Western society.
 	Also, Mergen talks about how the movie, Black Panther, resonated with him.
-	<br />
-	<br />
 
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep12.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
       </p>
 
-      <br />
       <small>Published on <a href="ep12.html">Jan 07 2019</a></small>
+	</li>
 
-      <hr />
-
+	<li class="list-group-item">
         <p>
-        <h3>&#x1F389 Episode 11: New Year, Better Mack</h3>
+        <a href="ep11.html"><h3>&#x1F389 Episode 11: New Year, Better Mack</h3></a>
 	Mack and Mike talk about their New Year Resolutions with this week's guest, Mergen. They also reminisce about how they remember years in their lives. Finally, Mack talks about the upcoming season 2 of his popular vlog.
 
 	<br />
@@ -217,95 +192,51 @@
 	<br />
 	Mack's Youtube channel <a href="https://www.youtube.com/channel/UCdT07u1Y2aiz_fy4KWXq0mA">https://www.youtube.com/channel/UCdT07u1Y2aiz_fy4KWXq0mA</a>
 
-	<br />
-	<br />
-
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep11.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
       </p>
-
-      <br />
       <small>Published on <a href="ep11.html">Jan 07 2019</a></small>
+	</li>
 
-      <hr />
-
+	<li class="list-group-item">
       <p>
-        <h3>&#x1F64F Episode 10: Losing our Religion</h3>
+        <a href="ep10.html"><h3>&#x1F64F Episode 10: Losing our Religion</h3></a>
 	Mack and Mike talk about their personal journeys with religion with this week's guest, Jim. Also, Mike and Jim discover a shocking coincidence of birth about themselves.
-	<br />
-	<br />
 
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep10.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
       </p>
 
-      <br />
       <small>Published on <a href="ep10.html">Dec 22 2018</a></small>
+	</li>
 
-      <hr />
-
+	<li class="list-group-item">
       <p>
-        <h3>&#x1F35C Episode 9: Happiness and productivity</h3>
+        <a href="ep9.html"><h3>&#x1F35C Episode 9: Happiness and productivity</h3></a>
 	In this episode, Mack loses his voice and forgets his mic. Then they talk about if being productive leads to happiness or vice versa. Then they touch on Universal Basic Income (UBI).
-	<br />
-	<br />
 
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep9.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
       </p>
 
-      <br />
       <small>Published on <a href="ep9.html">Dec 13 2018</a></small>
+	</li>
 
-      <hr />
-
+	<li class="list-group-item">
      <p>
-        <h3>&#x1F35C Episode 8: RGNs: Really Good Noodles</h3>
+        <a href="ep8.html"><h3>&#x1F35C Episode 8: RGNs: Really Good Noodles</h3></a>
 	Mack and Mike talk about efficient forms of government. Then they talk about what they have been up to during the podcast hiatus. Mike talks about his recent trip to Hong Kong. Finally, they talk about their recent board game obsessions.
-	<br />
-	<br />
 
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep8.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
       </p>
 
-      <br />
       <small>Published on <a href="ep8.html">Dec 3 2018</a></small>
-
-      <hr />
+	</li>
  
+	<li class="list-group-item">
       <p>
-        <h3>&#x1F4A1 Episode 7: Dreams, the Regents exams, and a lotta rambling on politics</h3>
+        <a href="ep7.html"><h3>&#x1F4A1 Episode 7: Dreams, the Regents exams, and a lotta rambling on politics</h3></a>
 	Mack and Mike talk about their dreams and dreaming. They go on a brief tangent about the New York State Regents exams. Then they talk about politics and the upcoming midterm 2018 elections. Finally Mack talks about Beto O'Rourke and unconscious bias.
-	<br />
-	<br />
-
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep7.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
       </p>
-
-      <br />
       <small>Published on <a href="ep7.html">Nov 3 2018</a></small>
+	</li>
 
-      <hr />
-
+	<li class="list-group-item">
       <p>
-        <h3>&#x1F383 Episode 6: Harry & Hermoine and Malapropisms</h3>
+        <a href="ep6.html"><h3>&#x1F383 Episode 6: Harry & Hermoine and Malapropisms</h3></a>
 	In the first half of this episode, Mack and Mike are joined by their co-worker, Roxana. They talk about Internet reviews, shipping, and the Harry Potter OTP. Mack and Mike then read malapropisms off of the Internet.
 	<br />
 	<br />
@@ -314,23 +245,15 @@
 	<a href="https://en.wikipedia.org/wiki/Shipping_(fandom)">https://en.wikipedia.org/wiki/Shipping_(fandom)</a>
 	<br />
 	<a href="https://www.youtube.com/watch?v=8THXsg6K_Do">Mack's vlog</a>
-	<br />
-	<br />
 
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep6.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
       </p>
 
-      <br />
       <small>Published on <a href="ep6.html">Oct 31 2018</a></small>
+	</li>
 
-      <hr />
-
+	<li class="list-group-item">
       <p>
-        <h3>&#x1F4F1 Episode 5: You should do what you want, I don't care</h3>
+        <a href="ep5.html"><h3>&#x1F4F1 Episode 5: You should do what you want, I don't care</h3></a>
 	Mack reviews the new iPhone XS. Mack and Mike rate their latest SF trip. They then delve into how they prioritize tasks in their lives. Finally Mack rants about his new productivity hack.
 
 	<br />
@@ -340,23 +263,15 @@
 	<a href="https://www.youtube.com/watch?v=_5sA01RnNQ4">https://www.youtube.com/watch?v=_5sA01RnNQ4</a>
 	<br />
 	<a href="https://erikbern.com/2018/03/27/waiting-time-load-factor-and-queueing-theory.html">https://erikbern.com/2018/03/27/waiting-time-load-factor-and-queueing-theory.html</a>
-	<br />
-	<br />
 
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep5.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
       </p>
 
-      <br />
       <small>Published on <a href="ep5.html">Oct 21 2018</a></small>
+	</li>
 
-      <hr />
-
+	<li class="list-group-item">
       <p>
-        <h3>&#x1F6CC Episode 4: Good habits, bad habits</h3>
+        <a href="ep4.html"><h3>&#x1F6CC Episode 4: Good habits, bad habits</h3></a>
 	Mack and Mike discuss the best season of The Office (US). Mike tells Mack about his morning routine. Finally they wonder if habits are fundamentally at odds with NIN.
 
 	<br />
@@ -365,23 +280,14 @@
 	<br />
 	<a href="http://superman.wikia.com/wiki/Yellow_Stars">http://superman.wikia.com/wiki/Yellow_Stars</a>
 
-	<br />
-	<br />
-
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep4.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
       </p>
 
-      <br />
       <small>Published on <a href="ep4.html">Oct 04 2018</a></small>
+	</li>
 
-      <hr />
-
+	<li class="list-group-item">
       <p>
-      	<h3>&#x1F4DD Episode 3: Remember words a lot</h3>
+      	<a href="ep3.html"><h3>&#x1F4DD Episode 3: Remember words a lot</h3></a>
 	Mack and Mike talk about how language affects thought patterns, the purpose of grammar, the role of AI in writing and sports.
 
 	<br />
@@ -390,23 +296,14 @@
 	<br />
 	<a href="https://xkcd.com/904">xkcd: Sports</a>
 
-	<br />
-	<br />
-
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep3.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</source>
-	</audio>
       </p>
 
-      <br />
       <small>Published on <a href="ep3.html">Sept 29 2018</a></small>
+	</li>
 
-      <hr />
-
+	<li class="list-group-item">
       <p>
-        <h3>&#x1F3A5 Episode 2: Serious life business</h3>
+        <a href="ep2.html"><h3>&#x1F3A5 Episode 2: Serious life business</h3></a>
 	First, Mack and Mike talk about Mack's life as a popular vlogger and how he tries to maintain control over his life narrative. 
 	Then, they delve into how human memories, technology, and the New Experience Initiative (NIN) are altering their lives and decisions. They also get a new theme song and sponsor.
 	<br />
@@ -415,49 +312,35 @@
 	<br />
 	Mack's Youtube channel <a href="https://www.youtube.com/channel/UCdT07u1Y2aiz_fy4KWXq0mA">https://www.youtube.com/channel/UCdT07u1Y2aiz_fy4KWXq0mA</a>
 
-	<br />
-	<br />
-
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep2.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</audio>
       </p>
 
-      <br />
       <small>Published on <a href="ep2.html">Sept 21 2018</a></small>
+	</li>
 
-      <hr />
-
+	<li class="list-group-item">
       <p>
-	<h3>&#x1F3C3 Episode 1: Running for office and running a marathon</h3>
+	<a href="ep1.html"><h3>&#x1F3C3 Episode 1: Running for office and running a marathon</h3></a>
 	Mack and Mike weigh in on Cuomo vs Nixon and their thoughts on running. Also Mike reviews Airpods.
 	<br />
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep1.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</audio>
       </p>
 
-      <br />
       <small>Published on <a href="ep1.html">Sept 13 2018</a></small>
+	</li>
 
-      <hr />
 
+	<li class="list-group-item">
       <p>
-	<h3>&#x1F388 Episode 0: The New Experience Initiative (NIN)</h3>
+	<a href="ep0.html"><h3>&#x1F388 Episode 0: The New Experience Initiative (NIN)</h3></a>
 	Mack and Mike talk about their new experience initiative.
 	<br />
-	<audio controls="">
-	<source src="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep0.m4a" type="audio/x-m4a" />
-	Your browser does not support the audio element.
-	</audio>
       </p>
 
-      <br />
       <small>Published on <a href="ep0.html">Sept 08 2018</a></small>
+	</li>
+	</ul>
 
     </div> <!-- /container -->
 
   </body>
+  <script src="js/mail.js"></script>
 </html>
