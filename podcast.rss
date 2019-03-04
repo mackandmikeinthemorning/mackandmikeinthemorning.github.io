@@ -295,6 +295,20 @@
     <guid>http://mackandmikeinthemorning.com/ep19.html</guid>
 </item> 
 
+<item>
+    <title>Superintelligence and morality</title>
+    <itunes:episode>21</itunes:episode>
+    <itunes:summary>Mack and Mike talk about how a potential super-intelligent AI would deal with morality.</itunes:summary>
+    <description>Mack and Mike talk about how a potential super-intelligent AI would deal with morality.</description>
+    <link>http://mackandmikeinthemorning.com/ep20.html</link>
+    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep20.m4a" type="audio/mpeg" length="52188774"></enclosure>
+    <pubDate>Mon, 04 Mar 2019 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>52:21</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep20.html</guid>
+</item> 
+
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
 </rss>
