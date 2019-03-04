@@ -1,5 +1,5 @@
 const form = document.getElementById('mailForm')
-const url = 'https://p7j4xt8r44.execute-api.us-west-2.amazonaws.com/api/subscribe'
+const url = 'https://p7j4xt8r44.execute-api.us-west-2.amazonaws.com/api/unsubscribe'
 const submit = document.getElementById('submit')
 const toast = document.getElementById('toast')
 
@@ -18,17 +18,15 @@ function post(url, body, callback) {
 }
 
 function success() {
-    toast.innerHTML = 'Thanks for subscribing! Be on the lookout for our next newsletter!'
+    toast.innerHTML = 'You are unsubscribed :('
     submit.disabled = false
     submit.blur()
     form.email.focus()
     form.email.value = ''
-    form.nickname.focus()
-    form.nickname.value = ''
 }
 
 function error (err) {
-    toast.innerHTML = 'There was an error subscribing :('
+    toast.innerHTML = 'There was an error processing your request'
     submit.disabled = false
     console.log(err)
 }
@@ -38,7 +36,6 @@ form.addEventListener('submit', function (e) {
     submit.disabled = true
 
     const payload = {
-	nickname: form.nickname.value,
         email: form.email.value,
     }
     post(url, payload, function(err, res) {
@@ -46,3 +43,4 @@ form.addEventListener('submit', function (e) {
         success()
     })
 })
+
