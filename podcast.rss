@@ -16,7 +16,8 @@
 <itunes:category text="Technology"></itunes:category>
 
 <item>
-    <title>Episode 0: The New Experience Initiative (NIN)</title>
+    <title>The New Experience Initiative (NIN)</title>
+    <itunes:episode>1</itunes:episode>
     <itunes:summary>Mack and Mike talk about their new experience initiative.</itunes:summary>
     <description>Mack and Mike talk about their new experience initiative.</description>
     <link>http://mackandmikeinthemorning.com/ep0.html</link>
@@ -29,7 +30,8 @@
 </item> 
 
 <item>
-    <title>Episode 1: Running for office and running a marathon</title>
+    <title>Running for office and running a marathon</title>
+    <itunes:episode>2</itunes:episode>
     <itunes:summary>Mack and Mike weigh in on Cuomo vs Nixon and their thoughts on running. Also Mike reviews Airpods.</itunes:summary>
     <description>Mack and Mike weigh in on Cuomo vs Nixon and their thoughts on running. Also Mike reviews Airpods.</description>
     <link>http://mackandmikeinthemorning.com/ep1.html</link>
@@ -42,7 +44,8 @@
 </item> 
 
 <item>
-    <title>Episode 2: Serious life business</title>
+    <title>Serious life business</title>
+    <itunes:episode>3</itunes:episode>
     <itunes:summary>First, Mack and Mike talk about Mack's life as a popular vlogger and how he tries to maintain control over his life narrative. Then, they delve into how human memories, technology, and the New Experience Initiative (NIN) are altering their lives and decisions. They also get a new theme song and sponsor.</itunes:summary>
     <description>First, Mack and Mike talk about Mack's life as a popular vlogger and how he tries to maintain control over his life narrative. Then, they delve into how human memories, technology, and the New Experience Initiative (NIN) are altering their lives and decisions. They also get a new theme song and sponsor.</description>
     <link>http://mackandmikeinthemorning.com/ep2.html</link>
@@ -55,7 +58,8 @@
 </item> 
   
 <item>
-    <title>Episode 3: Remember words a lot</title>
+    <title>Remember words a lot</title>
+    <itunes:episode>4</itunes:episode>
     <itunes:summary>Mack and Mike talk about how language affects thought patterns, the purpose of grammar, the role of AI in writing and sports.</itunes:summary>
     <description>Mack and Mike talk about how language affects thought patterns, the purpose of grammar, the role of AI in writing and sports.</description>
     <link>http://mackandmikeinthemorning.com/ep3.html</link>
@@ -68,7 +72,8 @@
 </item> 
 
 <item>
-    <title>Episode 4: Good habits, bad habits</title>
+    <title>Good habits, bad habits</title>
+    <itunes:episode>5</itunes:episode>
     <itunes:summary>Mack and Mike discuss the best season of The Office (US). Mike tells Mack about his morning routine. Finally they wonder if habits are fundamentally at odds with NIN.</itunes:summary>
     <description>Mack and Mike discuss the best season of The Office (US). Mike tells Mack about his morning routine. Finally they wonder if habits are fundamentally at odds with NIN.</description>
     <link>http://mackandmikeinthemorning.com/ep4.html</link>
@@ -81,7 +86,8 @@
 </item> 
 
 <item>
-    <title>Episode 5: You should do what you want, I don't care</title>
+    <title>You should do what you want, I don't care</title>
+    <itunes:episode>6</itunes:episode>
     <itunes:summary>Mack reviews the new iPhone XS. Mack and Mike rate their latest SF trip. They then delve into how they prioritize tasks in their lives. Finally Mack rants about his new productivity hack.</itunes:summary>
     <description>Mack reviews the new iPhone XS. Mack and Mike rate their latest SF trip. They then delve into how they prioritize tasks in their lives. Finally Mack rants about his new productivity hack.</description>
     <link>http://mackandmikeinthemorning.com/ep5.html</link>
@@ -94,7 +100,8 @@
 </item> 
 
 <item>
-    <title>Episode 6: Harry and Hermoine, and Malapropisms</title>
+    <title>Harry and Hermoine, and Malapropisms</title>
+    <itunes:episode>7</itunes:episode>
     <itunes:summary>In the first half of this episode, Mack and Mike are joined by their co-worker, Roxana. They talk about Internet reviews, shipping, and the Harry Potter OTP. Mack and Mike then read malapropisms off of the Internet.</itunes:summary>
     <description>In the first half of this episode, Mack and Mike are joined by their co-worker, Roxana. They talk about Internet reviews, shipping, and the Harry Potter OTP. Mack and Mike then read malapropisms off of the Internet.</description>
     <link>http://mackandmikeinthemorning.com/ep6.html</link>
@@ -107,7 +114,8 @@
 </item> 
    
 <item>
-    <title>Episode 7: Dreams, the Regents exams, and a lotta rambling on politics</title>
+    <title>Dreams, the Regents exams, and a lotta rambling on politics</title>
+    <itunes:episode>8</itunes:episode>
     <itunes:summary>Mack and Mike talk about their dreams and dreaming. They go on a brief tangent about the New York State Regents exams. Then they talk about politics and the upcoming midterm 2018 elections. Finally Mack talks about Beto O'Rourke and unconscious bias.</itunes:summary>
     <description>Mack and Mike talk about their dreams and dreaming. They go on a brief tangent about the New York State Regents exams. Then they talk about politics and the upcoming midterm 2018 elections. Finally Mack talks about Beto O'Rourke and unconscious bias.</description>
     <link>http://mackandmikeinthemorning.com/ep7.html</link>
@@ -120,7 +128,8 @@
 </item> 
 
 <item>
-    <title>Episode 8: RGNs: Really Good Noodles</title>
+    <title>RGNs: Really Good Noodles</title>
+    <itunes:episode>9</itunes:episode>
     <itunes:summary>Mack and Mike talk about efficient forms of government. Then they talk about what they have been up to during the podcast hiatus. Mike talks about his recent trip to Hong Kong. Finally, they talk about their recent board game obsessions.</itunes:summary>
     <description>Mack and Mike talk about efficient forms of government. Then they talk about what they have been up to during the podcast hiatus. Mike talks about his recent trip to Hong Kong. Finally, they talk about their recent board game obsessions.</description>
     <link>http://mackandmikeinthemorning.com/ep8.html</link>
@@ -133,7 +142,8 @@
 </item> 
 
 <item>
-    <title>Episode 9: Happiness and productivity</title>
+    <title>Happiness and productivity</title>
+    <itunes:episode>10</itunes:episode>
     <itunes:summary>In this episode, Mack loses his voice and forgets his mic. Then they talk about if being productive leads to happiness or vice versa. Then they touch on Universal Basic Income (UBI).</itunes:summary>
     <description>In this episode, Mack loses his voice and forgets his mic. Then they talk about if being productive leads to happiness or vice versa. Then they touch on Universal Basic Income (UBI).</description>
     <link>http://mackandmikeinthemorning.com/ep9.html</link>
@@ -146,7 +156,8 @@
 </item> 
 
 <item>
-    <title>Episode 10: Losing our Religion</title>
+    <title>Losing our Religion</title>
+    <itunes:episode>11</itunes:episode>
     <itunes:summary>Mack and Mike talk about their personal journeys with religion with this week's guest, Jim. Also, Mike and Jim discover a shocking coincidence of birth about themselves.</itunes:summary>
     <description>Mack and Mike talk about their personal journeys with religion with this week's guest, Jim. Also, Mike and Jim discover a shocking coincidence of birth about themselves.</description>
     <link>http://mackandmikeinthemorning.com/ep10.html</link>
@@ -159,7 +170,8 @@
 </item> 
 
 <item>
-    <title>Episode 11: New Year, Better Mack</title>
+    <title>New Year, Better Mack</title>
+    <itunes:episode>12</itunes:episode>
     <itunes:summary>Mack and Mike talk about their New Year Resolutions with this week's guest, Mergen. They also reminisce about how they remember years in their lives. Finally, Mack talks about the upcoming season 2 of his popular vlog.</itunes:summary>
     <description>Mack and Mike talk about their New Year Resolutions with this week's guest, Mergen. They also reminisce about how they remember years in their lives. Finally, Mack talks about the upcoming season 2 of his popular vlog.</description>
     <link>http://mackandmikeinthemorning.com/ep11.html</link>
@@ -172,7 +184,8 @@
 </item> 
 
 <item>
-    <title>Episode 12: Tuesdays with Mergen</title>
+    <title>Tuesdays with Mergen</title>
+    <itunes:episode>13</itunes:episode>
     <itunes:summary>In the thrilling conclusion to this two part episode, Mack and Mike discuss with Mergen about how his nomadic Mongolian roots clash with modern Western society.</itunes:summary>
     <description>In the thrilling conclusion to this two part episode, Mack and Mike discuss with Mergen about how his nomadic Mongolian roots clash with modern Western society.</description>
     <link>http://mackandmikeinthemorning.com/ep12.html</link>
@@ -185,7 +198,8 @@
 </item> 
 
 <item>
-    <title>Episode 13: Grey matter</title>
+    <title>Grey matter</title>
+    <itunes:episode>14</itunes:episode>
     <itunes:summary>In a Friday fireside chat, Mack and Mike talk about what it means to be "productive" all of the time.</itunes:summary>
     <description>In a Friday fireside chat, Mack and Mike talk about what it means to be "productive" all of the time.</description>
     <link>http://mackandmikeinthemorning.com/ep13.html</link>
@@ -198,7 +212,8 @@
 </item> 
 
 <item>
-    <title>Episode 14: The One where they're really tired</title>
+    <title>The One where they're really tired</title>
+    <itunes:episode>15</itunes:episode>
     <itunes:summary>Mack and Mike talk about Mack's morning routine and how he pumps himself up for the day while getting only 4 hours of sleep.</itunes:summary>
     <description>Mack and Mike talk about Mack's morning routine and how he pumps himself up for the day while getting only 4 hours of sleep.</description>
     <link>http://mackandmikeinthemorning.com/ep14.html</link>
@@ -211,7 +226,8 @@
 </item> 
 
 <item>
-    <title>Episode 15: Self-actuation</title>
+    <title>Self-actuation</title>
+    <itunes:episode>16</itunes:episode>
     <itunes:summary>Mack and Mike talk about Mack's self-actualization process and how they determine if something is meaningful.</itunes:summary>
     <description>Mack and Mike talk about Mack's self-actualization process and how they determine if something is meaningful.</description>
     <link>http://mackandmikeinthemorning.com/ep15.html</link>
@@ -224,7 +240,8 @@
 </item> 
 
 <item>
-    <title>Episode 16: David's podcast (part 1)</title>
+    <title>David's podcast (part 1)</title>
+    <itunes:episode>17</itunes:episode>
     <itunes:summary>Mack and Mike are joined by the host of David's podcast. They talk about meditation, being able to sit still, and how David comes up with subjects to talk about on David's podcast</itunes:summary>
     <description>Mack and Mike are joined by the host of David's podcast. They talk about meditation, being able to sit still, and how David comes up with subjects to talk about on David's podcast</description>
     <link>http://mackandmikeinthemorning.com/ep16.html</link>
@@ -237,7 +254,8 @@
 </item> 
 
 <item>
-    <title>Episode 17: David's podcast (part 2)</title>
+    <title>David's podcast (part 2)</title>
+    <itunes:episode>18</itunes:episode>
     <itunes:summary>In part 2, Mack and Mike and David talk about external validation and the profoundness of Christopher Nolan movies. Spoilers await our listeners.</itunes:summary>
     <description>In part 2, Mack and Mike and David talk about external validation and the profoundness of Christopher Nolan movies. Spoilers await our listeners.</description>
     <link>http://mackandmikeinthemorning.com/ep17.html</link>
@@ -250,7 +268,8 @@
 </item> 
 
 <item>
-    <title>Episode 18: The hero's journey</title>
+    <title>The hero's journey</title>
+    <itunes:episode>19</itunes:episode>
     <itunes:summary>In this behind the scenes, BONUS episode, David and Mack and Mike discuss the hero's journey in modern cinema.</itunes:summary>
     <description>In this behind the scenes, BONUS episode, David and Mack and Mike discuss the hero's journey in modern cinema.</description>
     <link>http://mackandmikeinthemorning.com/ep18.html</link>
@@ -263,7 +282,8 @@
 </item> 
 
 <item>
-    <title>Episode 19: David and Mike in the morning</title>
+    <title>David and Mike in the morning</title>
+    <itunes:episode>20</itunes:episode>
     <itunes:summary>David and Mike talk about how they learn, their learning philosophies, and how they think about tackling complex problems.</itunes:summary>
     <description>David and Mike talk about how they learn, their learning philosophies, and how they think about tackling complex problems.</description>
     <link>http://mackandmikeinthemorning.com/ep19.html</link>
