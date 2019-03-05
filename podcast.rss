@@ -309,6 +309,22 @@
     <guid>http://mackandmikeinthemorning.com/ep20.html</guid>
 </item> 
 
+<item>
+    <title>Outtakes 1</title>
+    <itunes:summary>BONUS: outtakes!</itunes:summary>
+    <description>BONUS: outtakes!</description>
+    <itunes:episodeType>bonus</itunes:episodeType>
+    <link>http://mackandmikeinthemorning.com/index.html</link>
+    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/outtakes.m4a" type="audio/mpeg" length="2921352"></enclosure>
+    <pubDate>Tue, 05 Mar 2019 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>3:01</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/index.html</guid>
+</item> 
+
+
+
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
 </rss>
