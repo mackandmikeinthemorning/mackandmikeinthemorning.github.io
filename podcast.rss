@@ -323,6 +323,20 @@
     <guid>http://mackandmikeinthemorning.com/index.html</guid>
 </item> 
 
+<item>
+    <title>Concrete</title>
+    <itunes:episode>22</itunes:episode>
+    <itunes:summary>Mack and Mike talk about only concrete things after one of their sponsors balks at the direction of the podcast.</itunes:summary>
+    <description>Mack and Mike talk about only concrete things after one of their sponsors balks at the direction of the podcast.</description>
+    <link>http://mackandmikeinthemorning.com/ep21.html</link>
+    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep21.m4a" type="audio/mpeg" length="23801749"></enclosure>
+    <pubDate>Mon, 25 Mar 2019 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>23:46</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep21.html</guid>
+</item> 
+
 
 
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
