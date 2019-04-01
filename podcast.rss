@@ -337,6 +337,33 @@
     <guid>http://mackandmikeinthemorning.com/ep21.html</guid>
 </item> 
 
+<item>
+    <title>Beto and UBI (Part 1)</title>
+    <itunes:episode>23</itunes:episode>
+    <itunes:summary>Mack and Mike revisit Mack's support for Beto O'Rourke. Also, they retread the topic of UBI.</itunes:summary>
+    <description>Mack and Mike revisit Mack's support for Beto O'Rourke. Also, they retread the topic of UBI.</description>
+    <link>http://mackandmikeinthemorning.com/ep22.html</link>
+    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep22.m4a" type="audio/mpeg" length="29996312"></enclosure>
+    <pubDate>Mon, 1 Apr 2019 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>29:43</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep22.html</guid>
+</item> 
+
+<item>
+    <title>Is having an infinite memory a good thing? (Part 2)</title>
+    <itunes:episode>24</itunes:episode>
+    <itunes:summary>Mack and Mike discuss whether or not having an infinite memory would be a good thing.</itunes:summary>
+    <description>Mack and Mike discuss whether or not having an infinite memory would be a good thing.</description>
+    <link>http://mackandmikeinthemorning.com/ep23.html</link>
+    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep23.m4a" type="audio/mpeg" length="29017077"></enclosure>
+    <pubDate>Mon, 1 Apr 2019 08:00:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>28:41</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep23.html</guid>
+</item> 
 
 
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
