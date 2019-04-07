@@ -365,6 +365,20 @@
     <guid>http://mackandmikeinthemorning.com/ep23.html</guid>
 </item> 
 
+<item>
+    <title>Intractable problems featuring Mergen</title>
+    <itunes:episode>25</itunes:episode>
+    <itunes:summary>Mergen guest hosts this episode, while Mack is on vacation, to talk about why so many of today's problems seem intractable and how we should be approaching these intractable problems.</itunes:summary>
+    <description>Mergen guest hosts this episode, while Mack is on vacation, to talk about why so many of today's problems seem intractable and how we should be approaching these intractable problems.</description>
+    <link>http://mackandmikeinthemorning.com/ep24.html</link>
+    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep24.m4a" type="audio/mpeg" length="54896531"></enclosure>
+    <pubDate>Mon, 8 Apr 2019 08:01:00 EST </pubDate>
+    <itunes:author>Mack and Mike</itunes:author>
+    <itunes:duration>55:05</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <guid>http://mackandmikeinthemorning.com/ep24.html</guid>
+</item> 
+
 
 <atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
