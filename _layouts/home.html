@@ -9,7 +9,11 @@ layout: default
     <li class="list-group-item">
     <p>
     <a class="episode-link" href="{{ post.url }}">
+        {% if post.episode_type == "bonus" %}
+        <h3>{{ post.title }}</h3>
+        {% else %}
         <h3>{{ post.emoji }} Episode {{ post.episode_number | minus: 1 }}: {{ post.title }}</h3>
+        {% endif %}
     </a>
     {{ post.description }}
     <br />
