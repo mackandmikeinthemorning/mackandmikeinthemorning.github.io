@@ -1,10 +1,14 @@
 name: Mack and Mike in the morning
+title: Mack and Mike in the morning
 email: mackandmikeinthemorning@gmail.com
-url: https://www.mackandmikeinthemorning.com/
+url: "https://mackandmikeinthemorning.com/"
+itunes_summary: Mack and Mike talk about life, tech, and the tech lifestyle.
 description: Mack and Mike talk about life, tech, and the tech lifestyle.
-author: Mike Chow
-itunes_email: mchow815@gmail.com
+author: Mack and Mike
+itunes_owner_name: Mike Chow
+itunes_owner_email: mchow815@gmail.com
 lang: en-us
+explicit: no
 kramdown:
  input: GFM
  auto_ids: true

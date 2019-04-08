@@ -1,371 +1,42 @@
+---
+layout: null
+---
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
 <channel>
-<title>Mack and Mike in the morning</title>
-<link>http://www.mackandmikeinthemorning.com/</link>
-<language>en-us</language>
+<title>{{ site.title }}</title>
+<link>{{ site.url }}</link>
+<language>{{ site.lang }}</language>
 <itunes:subtitle></itunes:subtitle>
-<itunes:author>Mack and Mike</itunes:author>
-<itunes:summary>Mack and Mike talk about life, tech, and the tech lifestyle.</itunes:summary>
-<description>Mack and Mike talk about life, tech, and the tech lifestyle.</description>
+<itunes:author>{{ site.author }}</itunes:author>
+<itunes:summary>{{ site.itunes_summary }}</itunes:summary>
+<description>{{ site.description }}</description>
 <itunes:owner>
-    <itunes:name>Mike Chow</itunes:name>
-    <itunes:email>mchow815@gmail.com</itunes:email>
+    <itunes:name>{{ site.itunes_owner_name }}</itunes:name>
+    <itunes:email>{{ site.itunes_owner_email }}</itunes:email>
 </itunes:owner>
-<itunes:explicit>no</itunes:explicit>
-<itunes:image href="http://mackandmikeinthemorning.com/static/podcast-icon.jpg"></itunes:image>
+<itunes:explicit>{{ site.explicit }}</itunes:explicit>
+<itunes:image href="{{ site.url }}/static/podcast-icon.jpg"></itunes:image>
 <itunes:category text="Technology"></itunes:category>
 
+{% for post in site.categories.podcast %}
 <item>
-    <title>The New Experience Initiative (NIN)</title>
-    <itunes:episode>1</itunes:episode>
-    <itunes:summary>Mack and Mike talk about their new experience initiative.</itunes:summary>
-    <description>Mack and Mike talk about their new experience initiative.</description>
-    <link>http://mackandmikeinthemorning.com/ep0.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep0.m4a" type="audio/mpeg" length="30661468"></enclosure>
-    <pubDate>Sat, 08 Sep 2018 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:16:10</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep0.html</guid>
-</item> 
-
-<item>
-    <title>Running for office and running a marathon</title>
-    <itunes:episode>2</itunes:episode>
-    <itunes:summary>Mack and Mike weigh in on Cuomo vs Nixon and their thoughts on running. Also Mike reviews Airpods.</itunes:summary>
-    <description>Mack and Mike weigh in on Cuomo vs Nixon and their thoughts on running. Also Mike reviews Airpods.</description>
-    <link>http://mackandmikeinthemorning.com/ep1.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep1.m4a" type="audio/mpeg" length="33743876"></enclosure>
-    <pubDate>Thu, 13 Sep 2018 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:17:48</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep1.html</guid>
-</item> 
-
-<item>
-    <title>Serious life business</title>
-    <itunes:episode>3</itunes:episode>
-    <itunes:summary>First, Mack and Mike talk about Mack's life as a popular vlogger and how he tries to maintain control over his life narrative. Then, they delve into how human memories, technology, and the New Experience Initiative (NIN) are altering their lives and decisions. They also get a new theme song and sponsor.</itunes:summary>
-    <description>First, Mack and Mike talk about Mack's life as a popular vlogger and how he tries to maintain control over his life narrative. Then, they delve into how human memories, technology, and the New Experience Initiative (NIN) are altering their lives and decisions. They also get a new theme song and sponsor.</description>
-    <link>http://mackandmikeinthemorning.com/ep2.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep2.m4a" type="audio/mpeg" length="40640038"></enclosure>
-    <pubDate>Fri, 21 Sep 2018 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:21:28</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep2.html</guid>
-</item> 
-  
-<item>
-    <title>Remember words a lot</title>
-    <itunes:episode>4</itunes:episode>
-    <itunes:summary>Mack and Mike talk about how language affects thought patterns, the purpose of grammar, the role of AI in writing and sports.</itunes:summary>
-    <description>Mack and Mike talk about how language affects thought patterns, the purpose of grammar, the role of AI in writing and sports.</description>
-    <link>http://mackandmikeinthemorning.com/ep3.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep3.m4a" type="audio/mpeg" length="39159603"></enclosure>
-    <pubDate>Sat, 29 Sep 2018 00:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:20:39</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep3.html</guid>
-</item> 
-
-<item>
-    <title>Good habits, bad habits</title>
-    <itunes:episode>5</itunes:episode>
-    <itunes:summary>Mack and Mike discuss the best season of The Office (US). Mike tells Mack about his morning routine. Finally they wonder if habits are fundamentally at odds with NIN.</itunes:summary>
-    <description>Mack and Mike discuss the best season of The Office (US). Mike tells Mack about his morning routine. Finally they wonder if habits are fundamentally at odds with NIN.</description>
-    <link>http://mackandmikeinthemorning.com/ep4.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep4.m4a" type="audio/mpeg" length="29760336"></enclosure>
-    <pubDate>Fri, 5 Oct 2018 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:16:04</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep4.html</guid>
-</item> 
-
-<item>
-    <title>You should do what you want, I don't care</title>
-    <itunes:episode>6</itunes:episode>
-    <itunes:summary>Mack reviews the new iPhone XS. Mack and Mike rate their latest SF trip. They then delve into how they prioritize tasks in their lives. Finally Mack rants about his new productivity hack.</itunes:summary>
-    <description>Mack reviews the new iPhone XS. Mack and Mike rate their latest SF trip. They then delve into how they prioritize tasks in their lives. Finally Mack rants about his new productivity hack.</description>
-    <link>http://mackandmikeinthemorning.com/ep5.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep5.m4a" type="audio/mpeg" length="51057445"></enclosure>
-    <pubDate>Sun, 21 Oct 2018 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:27:10</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep5.html</guid>
-</item> 
-
-<item>
-    <title>Harry and Hermoine, and Malapropisms</title>
-    <itunes:episode>7</itunes:episode>
-    <itunes:summary>In the first half of this episode, Mack and Mike are joined by their co-worker, Roxana. They talk about Internet reviews, shipping, and the Harry Potter OTP. Mack and Mike then read malapropisms off of the Internet.</itunes:summary>
-    <description>In the first half of this episode, Mack and Mike are joined by their co-worker, Roxana. They talk about Internet reviews, shipping, and the Harry Potter OTP. Mack and Mike then read malapropisms off of the Internet.</description>
-    <link>http://mackandmikeinthemorning.com/ep6.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep6.m4a" type="audio/mpeg" length="43054773"></enclosure>
-    <pubDate>Wed, 31 Oct 2018 12:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:23:11</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep6.html</guid>
-</item> 
-   
-<item>
-    <title>Dreams, the Regents exams, and a lotta rambling on politics</title>
-    <itunes:episode>8</itunes:episode>
-    <itunes:summary>Mack and Mike talk about their dreams and dreaming. They go on a brief tangent about the New York State Regents exams. Then they talk about politics and the upcoming midterm 2018 elections. Finally Mack talks about Beto O'Rourke and unconscious bias.</itunes:summary>
-    <description>Mack and Mike talk about their dreams and dreaming. They go on a brief tangent about the New York State Regents exams. Then they talk about politics and the upcoming midterm 2018 elections. Finally Mack talks about Beto O'Rourke and unconscious bias.</description>
-    <link>http://mackandmikeinthemorning.com/ep7.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep7.m4a" type="audio/mpeg" length="78961693"></enclosure>
-    <pubDate>Sat, 3 Nov 2018 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:44:07</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep7.html</guid>
-</item> 
-
-<item>
-    <title>RGNs: Really Good Noodles</title>
-    <itunes:episode>9</itunes:episode>
-    <itunes:summary>Mack and Mike talk about efficient forms of government. Then they talk about what they have been up to during the podcast hiatus. Mike talks about his recent trip to Hong Kong. Finally, they talk about their recent board game obsessions.</itunes:summary>
-    <description>Mack and Mike talk about efficient forms of government. Then they talk about what they have been up to during the podcast hiatus. Mike talks about his recent trip to Hong Kong. Finally, they talk about their recent board game obsessions.</description>
-    <link>http://mackandmikeinthemorning.com/ep8.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep8.m4a" type="audio/mpeg" length="34346776"></enclosure>
-    <pubDate>Mon, 3 Dec 2018 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:35:19</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep8.html</guid>
-</item> 
-
-<item>
-    <title>Happiness and productivity</title>
-    <itunes:episode>10</itunes:episode>
-    <itunes:summary>In this episode, Mack loses his voice and forgets his mic. Then they talk about if being productive leads to happiness or vice versa. Then they touch on Universal Basic Income (UBI).</itunes:summary>
-    <description>In this episode, Mack loses his voice and forgets his mic. Then they talk about if being productive leads to happiness or vice versa. Then they touch on Universal Basic Income (UBI).</description>
-    <link>http://mackandmikeinthemorning.com/ep9.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep9.m4a" type="audio/mpeg" length="21242416"></enclosure>
-    <pubDate>Thu, 13 Dec 2018 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:21:49</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep9.html</guid>
-</item> 
-
-<item>
-    <title>Losing our Religion</title>
-    <itunes:episode>11</itunes:episode>
-    <itunes:summary>Mack and Mike talk about their personal journeys with religion with this week's guest, Jim. Also, Mike and Jim discover a shocking coincidence of birth about themselves.</itunes:summary>
-    <description>Mack and Mike talk about their personal journeys with religion with this week's guest, Jim. Also, Mike and Jim discover a shocking coincidence of birth about themselves.</description>
-    <link>http://mackandmikeinthemorning.com/ep10.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep10.m4a" type="audio/mpeg" length="45527642"></enclosure>
-    <pubDate>Sat, 22 Dec 2018 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:46:50</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep10.html</guid>
-</item> 
-
-<item>
-    <title>New Year, Better Mack</title>
-    <itunes:episode>12</itunes:episode>
-    <itunes:summary>Mack and Mike talk about their New Year Resolutions with this week's guest, Mergen. They also reminisce about how they remember years in their lives. Finally, Mack talks about the upcoming season 2 of his popular vlog.</itunes:summary>
-    <description>Mack and Mike talk about their New Year Resolutions with this week's guest, Mergen. They also reminisce about how they remember years in their lives. Finally, Mack talks about the upcoming season 2 of his popular vlog.</description>
-    <link>http://mackandmikeinthemorning.com/ep11.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep11.m4a" type="audio/mpeg" length="29990233"></enclosure>
-    <pubDate>Mon, 07 Jan 2019 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:30:13</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep11.html</guid>
-</item> 
-
-<item>
-    <title>Tuesdays with Mergen</title>
-    <itunes:episode>13</itunes:episode>
-    <itunes:summary>In the thrilling conclusion to this two part episode, Mack and Mike discuss with Mergen about how his nomadic Mongolian roots clash with modern Western society.</itunes:summary>
-    <description>In the thrilling conclusion to this two part episode, Mack and Mike discuss with Mergen about how his nomadic Mongolian roots clash with modern Western society.</description>
-    <link>http://mackandmikeinthemorning.com/ep12.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep12.m4a" type="audio/mpeg" length="19137051"></enclosure>
-    <pubDate>Mon, 07 Jan 2019 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:19:17</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep12.html</guid>
-</item> 
-
-<item>
-    <title>Grey matter</title>
-    <itunes:episode>14</itunes:episode>
-    <itunes:summary>In a Friday fireside chat, Mack and Mike talk about what it means to be "productive" all of the time.</itunes:summary>
-    <description>In a Friday fireside chat, Mack and Mike talk about what it means to be "productive" all of the time.</description>
-    <link>http://mackandmikeinthemorning.com/ep13.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep13.m4a" type="audio/mpeg" length="30229588"></enclosure>
-    <pubDate>Mon, 14 Jan 2019 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:30:28</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep13.html</guid>
-</item> 
-
-<item>
-    <title>The One where they're really tired</title>
-    <itunes:episode>15</itunes:episode>
-    <itunes:summary>Mack and Mike talk about Mack's morning routine and how he pumps himself up for the day while getting only 4 hours of sleep.</itunes:summary>
-    <description>Mack and Mike talk about Mack's morning routine and how he pumps himself up for the day while getting only 4 hours of sleep.</description>
-    <link>http://mackandmikeinthemorning.com/ep14.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep14.m4a" type="audio/mpeg" length="28211721"></enclosure>
-    <pubDate>Mon, 21 Jan 2019 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:28:27</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep14.html</guid>
-</item> 
-
-<item>
-    <title>Self-actuation</title>
-    <itunes:episode>16</itunes:episode>
-    <itunes:summary>Mack and Mike talk about Mack's self-actualization process and how they determine if something is meaningful.</itunes:summary>
-    <description>Mack and Mike talk about Mack's self-actualization process and how they determine if something is meaningful.</description>
-    <link>http://mackandmikeinthemorning.com/ep15.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep15.m4a" type="audio/mpeg" length="35945285"></enclosure>
-    <pubDate>Mon, 28 Jan 2019 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:35:49</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep15.html</guid>
-</item> 
-
-<item>
-    <title>David's podcast (part 1)</title>
-    <itunes:episode>17</itunes:episode>
-    <itunes:summary>Mack and Mike are joined by the host of David's podcast. They talk about meditation, being able to sit still, and how David comes up with subjects to talk about on David's podcast</itunes:summary>
-    <description>Mack and Mike are joined by the host of David's podcast. They talk about meditation, being able to sit still, and how David comes up with subjects to talk about on David's podcast</description>
-    <link>http://mackandmikeinthemorning.com/ep16.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep16.m4a" type="audio/mpeg" length="34183602"></enclosure>
-    <pubDate>Mon, 04 Feb 2019 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:34:39</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep16.html</guid>
-</item> 
-
-<item>
-    <title>David's podcast (part 2)</title>
-    <itunes:episode>18</itunes:episode>
-    <itunes:summary>In part 2, Mack and Mike and David talk about external validation and the profoundness of Christopher Nolan movies. Spoilers await our listeners.</itunes:summary>
-    <description>In part 2, Mack and Mike and David talk about external validation and the profoundness of Christopher Nolan movies. Spoilers await our listeners.</description>
-    <link>http://mackandmikeinthemorning.com/ep17.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep17.m4a" type="audio/mpeg" length="45945057"></enclosure>
-    <pubDate>Mon, 11 Feb 2019 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:47:02</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep17.html</guid>
-</item> 
-
-<item>
-    <title>The hero's journey</title>
-    <itunes:episode>19</itunes:episode>
-    <itunes:summary>In this behind the scenes, BONUS episode, David and Mack and Mike discuss the hero's journey in modern cinema.</itunes:summary>
-    <description>In this behind the scenes, BONUS episode, David and Mack and Mike discuss the hero's journey in modern cinema.</description>
-    <link>http://mackandmikeinthemorning.com/ep18.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep18.m4a" type="audio/mpeg" length="24189093"></enclosure>
-    <pubDate>Mon, 18 Feb 2019 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>00:24:29</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep18.html</guid>
-</item> 
-
-<item>
-    <title>David and Mike in the morning</title>
-    <itunes:episode>20</itunes:episode>
-    <itunes:summary>David and Mike talk about how they learn, their learning philosophies, and how they think about tackling complex problems.</itunes:summary>
-    <description>David and Mike talk about how they learn, their learning philosophies, and how they think about tackling complex problems.</description>
-    <link>http://mackandmikeinthemorning.com/ep19.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep19.m4a" type="audio/mpeg" length="84755949"></enclosure>
-    <pubDate>Mon, 25 Feb 2019 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>01:24:21</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep19.html</guid>
-</item> 
-
-<item>
-    <title>Superintelligence and morality</title>
-    <itunes:episode>21</itunes:episode>
-    <itunes:summary>Mack and Mike talk about how a potential super-intelligent AI would deal with morality.</itunes:summary>
-    <description>Mack and Mike talk about how a potential super-intelligent AI would deal with morality.</description>
-    <link>http://mackandmikeinthemorning.com/ep20.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep20.m4a" type="audio/mpeg" length="52188774"></enclosure>
-    <pubDate>Mon, 04 Mar 2019 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>52:21</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep20.html</guid>
-</item> 
-
-<item>
-    <title>Outtakes 1</title>
-    <itunes:summary>BONUS: outtakes!</itunes:summary>
-    <description>BONUS: outtakes!</description>
+    <title>{{ post.title | xml_escape }}</title>
+    <itunes:episode>{{ post.episode_number }}</itunes:episode>
+    <itunes:summary>{{ post.description | xml_escape }}</itunes:summary>
+    <description>{{ post.description | xml_escape }}</description>
+    <link>{{ site.url }}/{{ post.permalink }}</link>
+    <enclosure url="{{ site.podcast_audio_prefix }}{{ post.audio_filename }}" type="audio/mpeg" length="{{ post.length }}"></enclosure>
+    <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+    <itunes:author>{{ site.author }}</itunes:author>
+    <itunes:duration>{{ post.duration }}</itunes:duration>
+    <itunes:explicit>{{ post.explicit }}</itunes:explicit>
+    {% if post.episode_type == "bonus" %}
     <itunes:episodeType>bonus</itunes:episodeType>
-    <link>http://mackandmikeinthemorning.com/index.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/outtakes.m4a" type="audio/mpeg" length="2921352"></enclosure>
-    <pubDate>Tue, 05 Mar 2019 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>3:01</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/index.html</guid>
+    {% endif %}
+    <guid isPermaLink="true">{{ site.url }}/{{ post.permalink }}</guid>
 </item> 
+{% endfor %}
 
-<item>
-    <title>Concrete</title>
-    <itunes:episode>22</itunes:episode>
-    <itunes:summary>Mack and Mike talk about only concrete things after one of their sponsors balks at the direction of the podcast.</itunes:summary>
-    <description>Mack and Mike talk about only concrete things after one of their sponsors balks at the direction of the podcast.</description>
-    <link>http://mackandmikeinthemorning.com/ep21.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep21.m4a" type="audio/mpeg" length="23801749"></enclosure>
-    <pubDate>Mon, 25 Mar 2019 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>23:46</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep21.html</guid>
-</item> 
-
-<item>
-    <title>Beto and UBI (Part 1)</title>
-    <itunes:episode>23</itunes:episode>
-    <itunes:summary>Mack and Mike revisit Mack's support for Beto O'Rourke. Also, they retread the topic of UBI.</itunes:summary>
-    <description>Mack and Mike revisit Mack's support for Beto O'Rourke. Also, they retread the topic of UBI.</description>
-    <link>http://mackandmikeinthemorning.com/ep22.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep22.m4a" type="audio/mpeg" length="29996312"></enclosure>
-    <pubDate>Mon, 1 Apr 2019 08:00:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>29:43</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep22.html</guid>
-</item> 
-
-<item>
-    <title>Is having an infinite memory a good thing? (Part 2)</title>
-    <itunes:episode>24</itunes:episode>
-    <itunes:summary>Mack and Mike discuss whether or not having an infinite memory would be a good thing.</itunes:summary>
-    <description>Mack and Mike discuss whether or not having an infinite memory would be a good thing.</description>
-    <link>http://mackandmikeinthemorning.com/ep23.html</link>
-    <enclosure url="https://s3.us-east-2.amazonaws.com/mackandmike/audio/ep23.m4a" type="audio/mpeg" length="29017077"></enclosure>
-    <pubDate>Mon, 1 Apr 2019 08:01:00 EST </pubDate>
-    <itunes:author>Mack and Mike</itunes:author>
-    <itunes:duration>28:41</itunes:duration>
-    <itunes:explicit>no</itunes:explicit>
-    <guid>http://mackandmikeinthemorning.com/ep23.html</guid>
-</item> 
-
-
-<atom:link href="https://mackandmikeinthemorning/podcast.rss" rel="self" type="application/rss+xml" />
+<atom:link href="{{ site.url }}/podcast.rss" rel="self" type="application/rss+xml" />
 </channel>
 </rss>
