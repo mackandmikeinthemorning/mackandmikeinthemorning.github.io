@@ -1,0 +1,13 @@
+name: Mack and Mike in the morning
+email: mackandmikeinthemorning@gmail.com
+url: https://www.mackandmikeinthemorning.com/
+description: Mack and Mike talk about life, tech, and the tech lifestyle.
+author: Mike Chow
+itunes_email: mchow815@gmail.com
+lang: en-us
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+podcast_audio_prefix: "https://s3.us-east-2.amazonaws.com/mackandmike/audio/"

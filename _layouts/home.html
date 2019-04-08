@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<ul class="list-group list-group-flush">
+    {% for post in site.categories.podcast %}
+    <li class="list-group-item">
+    <p>
+    <a class="episode-link" href="{{ post.url }}">
+        <h3>{{ post.emoji }} Episode {{ post.episode_number | minus: 1 }}: {{ post.title }}</h3>
+    </a>
+    {{ post.description }}
+    <br />
+    <br />
+    <small>Published on <a href="{{ post.url }}">{{ post.date | date_to_string }}</a></small>
+    </li>
+    {% endfor %}
+</ul>
