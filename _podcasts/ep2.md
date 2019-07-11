@@ -1,7 +1,6 @@
 ---
 title: "Serious life business"
 emoji: "&#x1F3A5"
-layout: default
 order: 3
 categories: podcast
 permalink: ep2.html

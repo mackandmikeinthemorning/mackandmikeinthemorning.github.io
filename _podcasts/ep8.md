@@ -1,7 +1,6 @@
 ---
 title: "RGNs: Really Good Noodles"
 emoji: "&#x1F35C"
-layout: default
 order: 9
 categories: podcast
 permalink: ep8.html

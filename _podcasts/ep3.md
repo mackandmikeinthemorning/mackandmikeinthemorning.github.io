@@ -1,7 +1,6 @@
 ---
 title: "Remember words a lot"
 emoji: "&#x1F4DD"
-layout: default
 order: 4
 categories: podcast
 permalink: ep3.html

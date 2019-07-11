@@ -1,7 +1,6 @@
 ---
 title: "You should do what you want, I don't care"
 emoji: "&#x1F4F1"
-layout: default
 order: 6
 categories: podcast
 permalink: ep5.html

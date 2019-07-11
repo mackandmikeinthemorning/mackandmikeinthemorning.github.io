@@ -1,7 +1,6 @@
 ---
 title: "Dreams, the Regents exams, and a lotta rambling on politics"
 emoji: "&#x1F4A1"
-layout: default
 order: 8
 categories: podcast
 permalink: ep7.html

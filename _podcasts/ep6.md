@@ -1,7 +1,6 @@
 ---
 title: "Harry and Hermoine, and Malapropisms"
 emoji: "&#x1F383"
-layout: default
 order: 7
 categories: podcast
 permalink: ep6.html

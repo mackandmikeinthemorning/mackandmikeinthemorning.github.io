@@ -1,7 +1,6 @@
 ---
 title: "Running for office and running a marathon"
 emoji: "&#x1F3C3"
-layout: default
 order: 2
 categories: podcast
 permalink: ep1.html

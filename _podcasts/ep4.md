@@ -1,7 +1,6 @@
 ---
 title: "Good habits, bad habits"
 emoji: "&#x1F6CC"
-layout: default
 order: 5
 categories: podcast
 permalink: ep4.html

@@ -1,7 +1,6 @@
 ---
 title: "Happiness and productivity"
 emoji: "&#x1F60A"
-layout: default
 order: 10
 categories: podcast
 permalink: ep9.html
