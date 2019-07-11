@@ -12,16 +12,5 @@ duration: 00:17:48
 explicit: no
 date: 2018-09-13 08:00:00 -0500
 description: "Mack and Mike weigh in on Cuomo vs Nixon and their thoughts on running. Also Mike reviews Airpods."
+layout: podcast
 ---
-
-<hr />
-<p>
-<h3>Episode {{ page.episode_number | minus: 1 }}: {{ page.title }}</h3>
-{{ page.description }}
-<br />
-<br />
-<audio controls="">
-<source src="{{ site.podcast_audio_prefix | append: page.audio_filename }}" type="audio/x-m4a" />
-Your browser does not support the audio element.
-</audio>
-</p>

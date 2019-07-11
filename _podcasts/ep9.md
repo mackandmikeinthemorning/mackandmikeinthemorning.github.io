@@ -12,16 +12,5 @@ duration: 00:21:49
 explicit: no
 date: 2018-12-13 08:00:00 -0500
 description: "In this episode, Mack loses his voice and forgets his mic. Then they talk about if being productive leads to happiness or vice versa. Then they touch on Universal Basic Income (UBI)."
+layout: podcast
 ---
-
-<hr />
-<p>
-<h3>Episode {{ page.episode_number | minus: 1 }}: {{ page.title }}</h3>
-{{ page.description }}
-<br />
-<br />
-<audio controls="">
-<source src="{{ site.podcast_audio_prefix | append: page.audio_filename }}" type="audio/x-m4a" />
-Your browser does not support the audio element.
-</audio>
-</p>

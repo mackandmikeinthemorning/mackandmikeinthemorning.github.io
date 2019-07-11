@@ -15,3 +15,6 @@ kramdown:
  hard_wrap: false
  syntax_highlighter: rouge
 podcast_audio_prefix: "https://s3.us-east-2.amazonaws.com/mackandmike/audio/"
+collections:
+ podcasts:
+  output: true 

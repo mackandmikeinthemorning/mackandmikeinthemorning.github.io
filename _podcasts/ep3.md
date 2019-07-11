@@ -12,22 +12,11 @@ duration: 00:20:39
 explicit: no
 date: 2018-09-29 08:00:00 -0500
 description: "Mack and Mike talk about how language affects thought patterns, the purpose of grammar, the role of AI in writing and sports."
+layout: podcast
 ---
 
-<hr />
-<p>
-<h3>Episode {{ page.episode_number | minus: 1 }}: {{ page.title }}</h3>
-{{ page.description }}
-<br />
-<br />
 <b>Show notes:</b>
 <br />
 <a href="https://xkcd.com/904">xkcd: Sports</a>
 <br />
 <br />
-<audio controls="">
-<source src="{{ site.podcast_audio_prefix | append: page.audio_filename }}" type="audio/x-m4a" />
-Your browser does not support the audio element.
-</audio>
-</p>
-

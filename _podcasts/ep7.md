@@ -12,16 +12,5 @@ duration: 00:44:07
 explicit: no
 date: 2018-11-03 08:00:00 -0500
 description: "Mack and Mike talk about their dreams and dreaming. They go on a brief tangent about the New York State Regents exams. Then they talk about politics and the upcoming midterm 2018 elections. Finally Mack talks about Beto O'Rourke and unconscious bias."
+layout: podcast
 ---
-
-<hr />
-<p>
-<h3>Episode {{ page.episode_number | minus: 1 }}: {{ page.title }}</h3>
-{{ page.description }}
-<br />
-<br />
-<audio controls="">
-<source src="{{ site.podcast_audio_prefix | append: page.audio_filename }}" type="audio/x-m4a" />
-Your browser does not support the audio element.
-</audio>
-</p>

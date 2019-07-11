@@ -12,14 +12,9 @@ duration: 00:23:11
 explicit: no
 date: 2018-10-31 08:00:00 -0500
 description: "In the first half of this episode, Mack and Mike are joined by their co-worker, Roxana. They talk about Internet reviews, shipping, and the Harry Potter OTP. Mack and Mike then read malapropisms off of the Internet."
+layout: podcast
 ---
 
-<hr />
-<p>
-<h3>Episode {{ page.episode_number | minus: 1 }}: {{ page.title }}</h3>
-{{ page.description }}
-<br />
-<br />
 <b>Show notes:</b>
 <br />
 <a href="https://en.wikipedia.org/wiki/Shipping_(fandom)">https://en.wikipedia.org/wiki/Shipping_(fandom)</a>
@@ -27,8 +22,3 @@ description: "In the first half of this episode, Mack and Mike are joined by the
 <a href="https://www.youtube.com/watch?v=8THXsg6K_Do">Mack's vlog</a>
 <br />
 <br />
-<audio controls="">
-<source src="{{ site.podcast_audio_prefix | append: page.audio_filename }}" type="audio/x-m4a" />
-Your browser does not support the audio element.
-</audio>
-</p>

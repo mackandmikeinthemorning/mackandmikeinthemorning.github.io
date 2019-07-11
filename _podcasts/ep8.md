@@ -12,16 +12,5 @@ duration: 00:35:19
 explicit: no
 date: 2018-12-03 08:00:00 -0500
 description: "Mack and Mike talk about efficient forms of government. Then they talk about what they have been up to during the podcast hiatus. Mike talks about his recent trip to Hong Kong. Finally, they talk about their recent board game obsessions."
+layout: podcast
 ---
-
-<hr />
-<p>
-<h3>Episode {{ page.episode_number | minus: 1 }}: {{ page.title }}</h3>
-{{ page.description }}
-<br />
-<br />
-<audio controls="">
-<source src="{{ site.podcast_audio_prefix | append: page.audio_filename }}" type="audio/x-m4a" />
-Your browser does not support the audio element.
-</audio>
-</p>

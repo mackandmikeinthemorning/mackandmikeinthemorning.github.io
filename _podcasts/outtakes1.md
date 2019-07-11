@@ -12,26 +12,5 @@ explicit: no
 episode_type: bonus
 date: 2019-03-05 08:00:00 -0500
 description: "BONUS: outtakes!"
+layout: podcast
 ---
-
-<hr />
-<p>
-<h3>{{ page.title }}</h3>
-{{ page.description }}
-<br />
-<br />
-<audio controls="">
-<source src="{{ site.podcast_audio_prefix | append: page.audio_filename }}" type="audio/x-m4a" />
-Your browser does not support the audio element.
-</audio>
-</p>
-
-
-
-
-
-
-
-
-
-
