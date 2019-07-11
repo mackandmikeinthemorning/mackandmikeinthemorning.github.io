@@ -18,22 +18,22 @@ layout: null
 <itunes:image href="{{ site.url }}/static/podcast-icon.jpg"></itunes:image>
 <itunes:category text="Technology"></itunes:category>
 
-{% for post in site.categories.podcast %}
+{% for podcast in site.podcasts reversed %}
 <item>
-    <title>{{ post.title | xml_escape }}</title>
-    <itunes:episode>{{ post.episode_number }}</itunes:episode>
-    <itunes:summary>{{ post.description | xml_escape }}</itunes:summary>
-    <description>{{ post.description | xml_escape }}</description>
-    <link>{{ site.url }}/{{ post.permalink }}</link>
-    <enclosure url="{{ site.podcast_audio_prefix }}{{ post.audio_filename }}" type="audio/mpeg" length="{{ post.length }}"></enclosure>
-    <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+    <title>{{ podcast.title | xml_escape }}</title>
+    <itunes:episode>{{ podcast.episode_number }}</itunes:episode>
+    <itunes:summary>{{ podcast.description | xml_escape }}</itunes:summary>
+    <description>{{ podcast.description | xml_escape }}</description>
+    <link>{{ site.url }}/{{ podcast.permalink }}</link>
+    <enclosure url="{{ site.podcast_audio_prefix }}{{ podcast.audio_filename }}" type="audio/mpeg" length="{{ podcast.length }}"></enclosure>
+    <pubDate>{{ podcast.date | date_to_rfc822 }}</pubDate>
     <itunes:author>{{ site.author }}</itunes:author>
-    <itunes:duration>{{ post.duration }}</itunes:duration>
-    <itunes:explicit>{{ post.explicit }}</itunes:explicit>
-    {% if post.episode_type == "bonus" %}
+    <itunes:duration>{{ podcast.duration }}</itunes:duration>
+    <itunes:explicit>{{ podcast.explicit }}</itunes:explicit>
+    {% if podcast.episode_type == "bonus" %}
     <itunes:episodeType>bonus</itunes:episodeType>
     {% endif %}
-    <guid isPermaLink="true">{{ site.url }}/{{ post.permalink }}</guid>
+    <guid isPermaLink="true">{{ site.url }}/{{ podcast.permalink }}</guid>
 </item> 
 {% endfor %}
 
