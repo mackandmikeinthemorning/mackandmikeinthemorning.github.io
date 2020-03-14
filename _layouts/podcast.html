@@ -5,7 +5,7 @@ layout: default
 <hr />
 <p>
 {% if page.episode_number %}
-<h3>Episode {{ page.episode_number }}: {{ page.title }}</h3>
+<h3>Episode {{ page.episode_number | minus: 1 }}: {{ page.title }}</h3>
 {% else %}
 <h3>{{ page.title }}</h3>
 {% endif %}
